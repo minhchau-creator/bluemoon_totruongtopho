@@ -95,7 +95,7 @@
                     </div>
 
                     <div class="card">
-                        <div class="card-header">
+                        <div class="card-header" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
                             <h3 class="card-title">Danh sách hộ khẩu</h3>
                             <button class="btn btn-primary" onclick="openModal('add-household')">
                                 <span>➕</span> Thêm hộ khẩu
@@ -127,7 +127,8 @@
                                         <th>Mã hộ khẩu</th>
                                         <th>Chủ hộ</th>
                                         <th>Số phòng</th>
-                                        <th>Số thành viên</th>
+                                        <th>Diện tích (m^2)</th>
+                                        <!-- <th>Số thành viên</th> -->
                                         <th>Trạng thái</th>
                                         <th>Thao tác</th>
                                     </tr>
@@ -137,7 +138,7 @@
                                         <td>HK001</td>
                                         <td>Nguyễn Văn An</td>
                                         <td>A-101</td>
-                                        <td>4</td>
+                                        <td>100</td>
                                         <td><span class="status-badge status-approved">Đã đăng ký</span></td>
                                         <td>
                                             <button class="btn btn-primary" onclick="editHousehold('HK001')">✏️</button>
@@ -148,7 +149,7 @@
                                         <td>HK002</td>
                                         <td>Trần Thị Bình</td>
                                         <td>A-102</td>
-                                        <td>3</td>
+                                        <td>105</td>
                                         <td><span class="status-badge status-pending">Chưa đăng ký</span></td>
                                         <td>
                                             <button class="btn btn-primary" onclick="editHousehold('HK002')">✏️</button>
